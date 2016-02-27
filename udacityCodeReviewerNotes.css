@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    color: #CC7A00;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+.lesson {
+    background-color: #FF9900;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.concept {
+    background-color: #FFEBCC;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.concept-title {
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    color: #E68B00;
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+}
+
+#watermark {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    opacity:0.2;
+}
+
+#watermark img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%; 
+}
