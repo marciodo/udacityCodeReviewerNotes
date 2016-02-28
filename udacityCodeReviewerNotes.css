@@ -11,6 +11,8 @@ body {
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
+    max-width: 980px; /*This limits the width to 980 px so your lines will not be so long in wide screens */
+    margin: 0 auto; /* Memorize this because you will use it a lot. This sets right and left margins to auto -> it will cented the "body"*/
 }
 
 .lesson {
