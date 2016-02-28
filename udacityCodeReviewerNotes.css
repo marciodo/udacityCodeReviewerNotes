@@ -5,6 +5,12 @@ h1 {
 
 body {
     font-family: Helvetica;
+    background-image: url(http://www.chocolatemintsinajar.com/blog/wp-content/uploads/2010/06/IMG_0698.jpg);
+    background-color: rgba(255, 255, 255, 0.1);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .lesson {
@@ -40,7 +46,7 @@ h2 {
     margin: 6px;
 }
 
-#watermark {
+/*#watermark {
     position: fixed; 
     top: -50%; 
     left: -50%; 
@@ -58,4 +64,4 @@ h2 {
     margin: auto; 
     min-width: 50%;
     min-height: 50%; 
-}
+}*/
